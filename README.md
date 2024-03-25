@@ -1,80 +1,21 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# Getting Started with Create React App
+This React component is a flowchart editor built using ReactFlow, a library for building interactive node-based graphs. Here's a breakdown of the techniques and libraries used:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1. React: The entire application is built using React, a JavaScript library for building user interfaces.
 
-## Available Scripts
+2. ReactFlow: This library is used for rendering and interacting with the flowchart. It provides components like `ReactFlow`, `Controls`, `addEdge`, etc., for managing nodes, edges, and their interactions.
 
-In the project directory, you can run:
+3. ReactFlowProvider: This component wraps the entire application, providing the context needed for ReactFlow components to interact with each other.
 
-### `npm start`
+4. useState: React's hook for managing state within functional components. It's used for managing various states such as `nodes`, `edges`, `inputLabel`, `defaultLabel`, `outputLabel`, `hoveredNode`, `hoveredStats`, and `nodeBg`.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+5. useEffect: Another React hook used for handling side effects in functional components. It's used to update node styles when the `hoveredNode` or `nodeBg` changes.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+6. useCallback: This hook is used to memoize functions like `onConnect`, `onNodeDoubleClick`, `onDragOver`, `onDrop`, `handleNodeHover`, and `onLayout`, optimizing performance by preventing unnecessary re-renders.
 
-### `npm test`
+7. dagre: A JavaScript library for laying out directed graphs. It's used for automatic graph layout, ensuring that nodes and edges are properly positioned in the flowchart.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+8. Sidebar and DownloadButton: These are custom components used alongside the flowchart editor. They are likely used for providing additional functionality or controls related to the flowchart.
 
-### `npm run build`
+9. CSS: Various CSS classes and styles are applied for styling the components and layout of the application.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# Flowchart
-Frontend Internship Assignment 2024 for Lizmotors Mobility Pvt. Ltd.
->>>>>>> 69a260c217ee73326a65ead16da55d5f6547a64a
-=======
-# Flowchart
-Frontend Internship Assignment 2024 for Lizmotors Mobility Pvt. Ltd.
->>>>>>> c4b56f6dd2b9f218cd43e0711b57e52680c87853
+Overall, the component demonstrates the integration of React with ReactFlow library for building a dynamic and interactive flowchart editor with features like node customization, edge connections, drag-and-drop functionality, layout management, and more.
