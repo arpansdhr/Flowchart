@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -73,3 +74,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 # Flowchart
 Frontend Internship Assignment 2024 for Lizmotors Mobility Pvt. Ltd.
 >>>>>>> 69a260c217ee73326a65ead16da55d5f6547a64a
+=======
+# Flowchart
+Frontend Internship Assignment 2024 for Lizmotors Mobility Pvt. Ltd.
+>>>>>>> c4b56f6dd2b9f218cd43e0711b57e52680c87853
