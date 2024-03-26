@@ -53,7 +53,7 @@ const Sidebar = () => {
           typing-in the color name and then hovering 
         </p>
         <p>
-          onto the the node
+          onto the node
         </p>
       </div>
     </aside>
