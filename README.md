@@ -1,4 +1,4 @@
-This React app is a flowchart editor built using ReactFlow, a library for building interactive node-based graphs. Here's a breakdown of the techniques and libraries used:
+This React App is a flowchart editor built using ReactFlow, a library for building interactive node-based graphs. Here's a breakdown of the techniques and libraries used:
 
 1. React: The entire application is built using React, a JavaScript library for building user interfaces.
 
